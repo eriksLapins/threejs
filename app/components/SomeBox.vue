@@ -10,11 +10,11 @@
                 center
                 transform
                 :distance-factor="4"
+                :position="[0,0,0]"
+        :scale="[0.75, 0.75, 0.75]"
             >
                 <div class="card">
-                    <div>
                         Hello
-                    </div>
                 </div>
             </Html>
         </TresMesh>
@@ -55,6 +55,6 @@ for (let y = 0; y <= 6; y += 2) {
 .card {
     width: 200px;
     height: 200px;
-    background-color: red;
+    background-color: white;
 }
 </style>
